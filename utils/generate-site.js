@@ -13,7 +13,7 @@ const writeFile = fileContent => {
             // if everything went well, resolve the Promise and send the successful data to the `.then()` method
             resolve({
                 ok: true,
-                message: 'File created!'
+                message: 'File created! located in dist folder'
             });
         });
     });
@@ -32,7 +32,7 @@ const copyFile = () => {
             // if everything went well, resolve the Promise and send the successful data to the `.then()` method
             resolve({
                 ok: true,
-                message: 'File copied!'
+                message: 'File copied to dist folder!'
             });
         });
     });
